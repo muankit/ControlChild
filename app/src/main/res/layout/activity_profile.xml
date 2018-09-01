@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ProfileActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <include
+            android:id="@+id/main_page_toolbar"
+            layout="@layout/main_app_bar_layout" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <TextView
+        android:id="@+id/profile_name_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="67dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="26sp"
+        tools:text="  " />
+
+    <TextView
+        android:id="@+id/profile_email_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:text="  "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/profile_id_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:textColor="@color/spots_dialog_color"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="223dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <TextView
+            android:id="@+id/profile_invite_code1"
+            android:layout_width="5dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="  "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/profile_invite_code2"
+            android:layout_width="5dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="  "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/profile_invite_code3"
+            android:layout_width="5dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="  "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/profile_invite_code4"
+            android:layout_width="5dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="  "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/profile_invite_code5"
+            android:layout_width="5dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="  "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/profile_invite_code6"
+            android:layout_width="5dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="  "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/profile_invite_code7"
+            android:layout_width="5dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="  "
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/profile_invite_share_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutCode"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_sign_in_background"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Share Code"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

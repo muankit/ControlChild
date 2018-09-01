@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/navigationAccount"
+        android:title="My Account"/>
+
+    <item android:id="@+id/navigationConnected"
+        android:title="Connected"/>
+
+    <item android:id="@+id/navigationSettings"
+        android:title="Settings"/>
+
+    <item android:id="@+id/navigationContact"
+        android:title="Contact Us"/>
+
+</menu>
